@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.originalegs.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imgLogin"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/whatsapp_image_2023_05_14_at_11_04_32_pm" />
+
+        <TextView
+            android:id="@+id/txtinicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="40px"
+            android:text="Inicio de sesion"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20px">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="400px"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20px"
+            android:paddingRight="20px"
+            android:text="Ingresar usuario:"
+            android:textColor="@color/black" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundMode="filled"
+            app:hintEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="650px"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:paddingLeft="30px"
+                android:paddingRight="20px"
+                android:textSize="16dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="80px"
+        android:paddingBottom="50px">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="400px"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20px"
+            android:paddingRight="20px"
+            android:text="Ingresar contrasena:"
+            android:textColor="@color/black" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputPassword"
+            android:layout_width="650px"
+            android:layout_height="wrap_content"
+            app:boxBackgroundMode="filled">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="650px"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:inputType="textPassword"
+                android:textSize="16dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="50px"
+        android:paddingTop="80px"
+        android:paddingBottom="50px">
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="123dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:paddingLeft="50px"
+            android:paddingRight="50px"
+            android:text="Ingresar"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_weight="1"
+            android:paddingLeft="50px"
+            android:paddingRight="50px"
+            app:srcCompat="@drawable/finger" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="60px"
+        android:paddingTop="20px">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Aun no tienes cuenta ?"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/clickRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:paddingLeft="10px"
+            android:text="Registrate aqui."
+            android:textColor="#D32525"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

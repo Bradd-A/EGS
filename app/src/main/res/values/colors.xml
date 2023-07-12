@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue" type="color">#03A9F4</color>
+    <color name="purple" type="color">#E29EED</color>
+    <color name="green" type="color">#CDDC39</color>
+    <color name="orange" type="color">#FF9800</color>
+    <color name="red" type="color">#f44336</color>
+    <color name="indigo" type="color">#009688</color>
+    <color name="deep_purple" type="color">#673ab7</color>
+    <color name="light_green" type="color">#689f38</color>
+    <color name="teal" type="color">#009688</color>
+    <color name="pink" type="color">#e91e63</color>
+
+    <integer-array name="initial_colors">
+        <item>@color/blue</item>
+        <item>@color/purple</item>
+        <item>@color/green</item>
+        <item>@color/orange</item>
+        <item>@color/red</item>
+        <item>@color/indigo</item>
+        <item>@color/deep_purple</item>
+        <item>@color/light_green</item>
+        <item>@color/teal</item>
+        <item>@color/pink</item>
+        <item>@color/blue</item>
+        <item>@color/purple</item>
+        <item>@color/green</item>
+        <item>@color/orange</item>
+        <item>@color/red</item>
+        <item>@color/indigo</item>
+        <item>@color/deep_purple</item>
+        <item>@color/light_green</item>
+        <item>@color/teal</item>
+        <item>@color/pink</item>
+        <item>@color/blue</item>
+        <item>@color/purple</item>
+        <item>@color/green</item>
+        <item>@color/orange</item>
+        <item>@color/red</item>
+        <item>@color/indigo</item>
+        <item>@color/deep_purple</item>
+        <item>@color/light_green</item>
+        <item>@color/teal</item>
+        <item>@color/pink</item>
+        <item>@color/blue</item>
+        <item>@color/purple</item>
+        <item>@color/green</item>
+        <item>@color/orange</item>
+        <item>@color/red</item>
+        <item>@color/indigo</item>
+        <item>@color/deep_purple</item>
+        <item>@color/light_green</item>
+        <item>@color/teal</item>
+        <item>@color/pink</item>
+        <item>@color/blue</item>
+        <item>@color/purple</item>
+        <item>@color/green</item>
+        <item>@color/orange</item>
+        <item>@color/red</item>
+        <item>@color/indigo</item>
+        <item>@color/deep_purple</item>
+        <item>@color/light_green</item>
+        <item>@color/teal</item>
+        <item>@color/pink</item>
+    </integer-array>
+</resources>
